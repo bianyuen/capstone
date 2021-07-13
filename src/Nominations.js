@@ -5,17 +5,17 @@ import ReactDOM from 'react-dom';
 function Nominations() {
   return (
       <>
+      <h1> Customer Nomination Form</h1>
     <form>
-    <h1>Customer Nomination Form</h1>
-    <p>Customer Name: <input type="text"/> </p>
-    <p>Rep Email: <input type="text"/> </p>
-    <p>Use Case: <input type="text"/> </p>
-    <p>Business Sector: <input type="text"/> </p>
-    <p>Customer Contact: <input type="text"/> </p>
+    <label for="fname">Customer Name <br></br> </label> <input type="text" id="fname" name="firstname" placeholder="Customer Company Full Name"></input> <br></br>
+    <label for="fname">Representative Email <br></br> </label> <input type="text" id="fname" name="firstname" placeholder="Your full Amazon Email"></input> <br></br>
+    <label for="fname">Use Case <br></br> </label> <input type="text" id="fname" name="firstname" placeholder="Connect/ Migrations/ Analytics..."></input> <br></br>
+    <label for="fname">Business Sector <br></br> </label> <input type="text" id="fname" name="firstname" placeholder="ENT/ SMB/ ISV..."></input> <br></br>
+    <label for="fname">Customer Email <br></br> </label> <input type="text" id="fname" name="firstname" placeholder="Interviewee Email Address"></input> <br></br>
     <br></br>
   </form>
 
-  <button>Submit Nomination</button>
+  <input type="submit" value="Submit Nomination"></input>
   </>
 
 

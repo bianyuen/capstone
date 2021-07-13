@@ -3,6 +3,7 @@ import Title from './Title';
 import NavBar from './NavBar';
 import Home from './Home';
 import Nominations from './Nominations';
+import Videos from "./Videos";
 
 import React from "react";
 import {
@@ -28,10 +29,15 @@ function App() {
           <Route path="/Nominations">
             <Nominations />
           </Route>
+
+          <Route path="/Videos">
+            <Videos />
+          </Route>
+
         </Switch>
       </div>
     </Router>
-    
+
     </div>
   );
 }
