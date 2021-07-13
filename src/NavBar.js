@@ -7,11 +7,12 @@ import './NavBar.css';
 function NavBar() {
   return (
     <div class = 'topnav'>
-      <a class="active" href="#home">Home</a>
-      <a href="#about">About</a>
-      <a href="#videos">Videos</a>
-      <a href="#faq">FAQ</a>
-      <a href="#contact us">Contact Us</a>
+      <a class="active" href="/Home">Home</a>
+      <a href="/Videos">Videos</a>
+      <a href="/Nominations">Nominations</a>
+      <a href="/Contactus">Contact Us</a>
+      <br></br><br></br>
+      <hr></hr>
     </div>
   )
 }
